@@ -55,7 +55,7 @@ const PokemonList = () => {
         </div>
         <div className='pokemon-list'>
 
-        {pokemonList.map((pokemon)=> <Pokemon key={pokemon.id} name ={pokemon.name} id = {pokemon.id} image = {pokemon.image}/>)}
+        {pokemonList.map((pokemon)=> <Pokemon key={pokemon.id} name ={pokemon.name} id = {pokemon.id} image = {pokemon.image} />)}
         </div>
    </div>
    </>
